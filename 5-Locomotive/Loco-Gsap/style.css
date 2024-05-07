@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#page1 {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(71, 255, 255);
+}
+
+#main > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page2 {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(77, 71, 255);
+}
+
+#page3 {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 71, 243);
+}
+
+#box {
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(rgb(248, 255, 110), red);
+    border-radius: 50%;
+
+}
